@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+//!     GENERAL
+
+    // ?___________ VARIABLES ---------*
+    
+    @import "global/variables-main";
+
+    // ?___________ MIXINS ---------*
+  
+
+    // ?___________ CSS RESET ---------*
+
+    @import '../node_modules/scss-reset/src/scss/_reset.scss';
+    @import '../node_modules/scss-reset/src/scss/_variables.scss';
+    @import '../node_modules/scss-reset/src/scss/_typography.scss';
+
+    // ?___________ TYPOGRAPHY ---------*
+    
+    @import "global/typography-main";
+//!     COMPONENTS
+
+    // ?----------- ICONS ------------*
+
+    @import "components/_icons.scss";
+
+    // ?___________ NAV ---------*
+
+    
+
+    // ?___________ BUTTONS ---------*
+
+
+    // ?___________ FORMS ---------*
+
+
+    // ?___________ SOCIAL ---------*
+
+
+//!     LAYOUT
+
+    // ?___________ GENERAL ---------*
+    @import "general/_navigation.scss";
+    
+    // ?___________ HEADER ---------*
+
+    @import "general/_menu.scss";
+    // ?___________ CONTENT ---------*
+
+    @import "general/_content.scss";
+
+    // ?___________ FOOTER ---------*
+
+
+//!    PAGES
+
+    // ?___________ PAGE_1 ---------*
+
+
+//!     EXTENDS
+
+    // ?___________ EXTENDS ---------*

@@ -1,0 +1,58 @@
+.menu {
+    margin-left: 272px;
+    position: static;
+    flex-grow: 1;
+    &--buttons {
+        max-width: 1648px;
+        padding: 0px 56px;
+        display: flex;
+        align-items: center;
+        height: 96px;
+        &__wrapper {
+            display: flex;
+            min-width: 433px;
+            max-width: 670px;
+            justify-content: space-between;
+        }
+        &__options {
+            display: flex;
+            width: fit-content;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            height: 44px;
+            margin: -8px;
+        }
+        &__option {
+            height: 22px;
+        }
+        &__beta {
+            height: 44px;
+            &--box {
+            width: 39px;
+            height: 20px;
+            font-size: $font-size-h4;
+            padding: 0px 10px;
+            background-color: lighten(saturate($theme, 30%), 35%);
+            border-radius: 9999px;
+            }
+        }
+        
+        &__avatars {
+            display: flex;
+            width: 125px;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        &__id {
+            background-color: lighten(saturate($theme, 30%), 35%);
+        }
+        &__username {
+            font-size: $font-size-h4;
+        }
+    }
+}
+.margin {
+    margin-left: auto;
+}
